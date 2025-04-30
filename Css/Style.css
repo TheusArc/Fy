@@ -10,9 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   font-family: Arial, sans-serif;
-  height: auto;
-  overflow: auto;
+  overflow: hidden;
   background: url('../Assets/download.jpeg') no-repeat center center fixed;
 }
 
