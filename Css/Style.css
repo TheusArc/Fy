@@ -12,7 +12,7 @@ body {
   align-items: center;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  
+  overflow: hidden;
   background: url('../Assets/download.jpeg') no-repeat center center fixed;
 }
 
@@ -24,7 +24,7 @@ body {
   cursor: pointer;
   position: absolute;
   color: white;
-  transform: translateY(-100%); /* Começa fora da tela */
+  transform: translateY(-50%); /* Começa fora da tela */
   transition: opacity 0.9s ease, transform 0.9s ease; /* Transições mais suaves */
 }
 
@@ -32,14 +32,13 @@ body {
 .abrir {
   display: flex;
   transform: translateY(0); /* Posiciona na tela */
-
 }
 
 /* Quando o emoji desaparece */
 .fechar {
   opacity: 0; /* Invisível */
   transform: translateY(-100%); /* Fora da tela */
-
+  
 }
 
 /* Configuração da folha */
@@ -57,7 +56,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: translate(-100, -100%);
+  transform: translateY(-100%);
+  bottom: 120px;
   pointer-events: none;
   transition: opacity 0.9s ease, transform 0.9s ease;
 }
@@ -127,7 +127,7 @@ body {
   transition: background 0.3s, box-shadow 0.3s;
   text-align: center;
   bottom: 15%;
-
+  
 }
 
 #Home:hover {
@@ -218,7 +218,6 @@ input[type="radio"] {
   justify-content: center;
   gap: 15px;
   z-index: 10;
-
 }
 
 .manual-btn {
