@@ -43,8 +43,8 @@ body {
 
 /* Configuração da folha */
 #folha {
-  width: 250px;
-  height: 550px;
+  width: 300px;
+  height: 700px;
   background: rgba(255, 255, 255, 0.2); /* mais transparente */
   color: black;
   padding: 20px;
@@ -77,8 +77,8 @@ body {
 }
 
 #texto {
-  margin-top: 20px;
-  font-size: 10px;
+  width: 95%;
+  font-size: 15px;
 }
 
 #fechar {
