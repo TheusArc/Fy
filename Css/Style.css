@@ -177,6 +177,7 @@ footer {
   margin: 40px auto;
   position: relative;
   overflow: hidden;
+  bottom: 120px;
 }
 
 .slide-container {
@@ -213,7 +214,7 @@ input[type="radio"] {
 .manual-navigation {
   position: absolute;
   width: 100%;
-  bottom: 260px;
+  bottom: 220px;
   display: flex;
   justify-content: center;
   gap: 15px;
