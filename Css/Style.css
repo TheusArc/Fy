@@ -39,7 +39,7 @@ body {
 .fechar {
   opacity: 0; /* Invisível */
   transform: translateY(-100%); /* Fora da tela */
-  
+
 }
 
 /* Configuração da folha */
@@ -127,7 +127,7 @@ body {
   transition: background 0.3s, box-shadow 0.3s;
   text-align: center;
   bottom: 15%;
-  
+
 }
 
 #Home:hover {
@@ -246,5 +246,6 @@ input[type="radio"] {
 #radio4:checked ~ .slide-container {
   transform: translateX(-300%);
 }
+
 
 
