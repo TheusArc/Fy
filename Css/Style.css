@@ -160,14 +160,15 @@ footer {
 
 #txt{
   position: absolute;
-  width: 70%;
-  bottom: 50px;
+  width: 100%;
+  bottom: 40px;
   display: flex;
   justify-content: center;
   gap: 15px;
   z-index: 10;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Minecraftia;
+  text-align: center;
 }
 
 .slider {
