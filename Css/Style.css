@@ -111,7 +111,7 @@ body {
 }
 
 #momentos:hover {
-  background: red; /* Roxo mais claro ao passar o mouse */
+  background: red; 
   box-shadow: 0 0 20px red;
 }
 
@@ -126,7 +126,7 @@ body {
   position: absolute;
   transition: background 0.3s, box-shadow 0.3s;
   text-align: center;
-  bottom: 15%;
+  bottom: 20%;
   
 }
 
