@@ -23,7 +23,7 @@ body {
   cursor: pointer;
   position: absolute;
   color: white;
-  transform: translateY(-50%); /* Começa fora da tela */
+  transform: translateY(-100%); /* Começa fora da tela */
   transition: opacity 0.9s ease, transform 0.9s ease; /* Transições mais suaves */
 }
 
